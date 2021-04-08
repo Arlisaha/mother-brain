@@ -1,0 +1,19 @@
+{
+    "name": "arlisaha/mother-brain",
+    "license": "GPL-2.0-only",
+    "version": "0.0.1",
+    "type": "symfony-bundle",
+    "description": "Headless CMS",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Arlisaha\\MotherBrainBundle\\": "src/"
+        }
+    },
+    "require": {
+        "friendsofsymfony/rest-bundle": "^3.1@dev",
+        "jms/serializer-bundle": "^3.9",
+        "vich/uploader-bundle": "^1.15"
+    }
+}
